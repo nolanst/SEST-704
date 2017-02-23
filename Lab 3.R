@@ -14,7 +14,7 @@ rm(list=ls())
 dev.off()
 
 # Install library to plot
-install.packages("ggplot.2")
+install.packages("ggplot2")
 install.packages("RColorBrewer")
 
 library(ggplot2)
