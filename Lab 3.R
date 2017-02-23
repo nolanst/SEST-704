@@ -16,9 +16,11 @@ dev.off()
 # Install library to plot
 install.packages("ggplot2")
 install.packages("RColorBrewer")
+install.packages("lattice")
 
 library(ggplot2)
-library(RColorBrewer)               #for brewer.pal()
+library(RColorBrewer) #for brewer.pal()
+library("lattice") # For contourplot at the end
 
 # Read data
 mydata<-read.csv("http://www.ats.ucla.edu/stat/data/binary.csv")
